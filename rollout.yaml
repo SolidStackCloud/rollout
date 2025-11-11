@@ -9,8 +9,7 @@ spec:
     canary:
       steps:
       - setWeight: 100
-      - pause:
-          duration: 0
+      - pause: {}
   selector:
     matchLabels:
       app: simple-app
