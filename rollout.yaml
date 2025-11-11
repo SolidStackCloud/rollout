@@ -4,6 +4,7 @@ metadata:
   name: simple-rollout
 spec:
   replicas: 2
+  revisionHistoryLimit: 3
   strategy:
     canary:
       steps:
